@@ -29,8 +29,8 @@ public class Feature implements Comparable<Feature> {
         @JsonValue
         public String toJson() {
             return name().toLowerCase();
-        };
-    };
+        }
+    }
 
     private String name;
     private String description;
